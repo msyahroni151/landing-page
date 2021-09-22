@@ -1,0 +1,20 @@
+.header{
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    color: white;
+    padding: 1em;
+}
+
+.header .header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .header-wrapper .right-header{
+    display: flex;
+}
+
+.header .header-wrapper .right-header *{
+    padding-left: 1em;
+}

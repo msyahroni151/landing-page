@@ -1,0 +1,17 @@
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+a:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid red;
+  width: 50%;
+  margin: auto;
+  margin-left: 45%;
+}

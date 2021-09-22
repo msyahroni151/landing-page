@@ -1,0 +1,51 @@
+.jumbotron  {
+    width: 80%;
+    height: 300px;
+    margin: 70px auto;
+    /* background: url("../img/bg-image.jpg"); */
+}
+
+.image {
+    float: right;
+    width: 50%;
+    height: 450px;
+    background-color: #fff;
+}
+
+.image img {
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.deskripsi {
+    width: 40%;
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+}
+
+.deskripsi .info{
+    margin-top: 20%;
+    line-height: 1.8;
+    color: rgb(18, 11, 49);
+}
+
+
+.deskripsi .title1 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.deskripsi .title2{
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.deskripsi .btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+
+}
